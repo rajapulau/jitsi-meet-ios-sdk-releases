@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
 
   s.platform         = :ios, '10.0'
 
-  s.vendored_frameworks = 'Frameworks/JitsiMeet.framework', 'Frameworks/WebRTC.framework'
+  s.vendored_frameworks = 'Frameworks/JitsiMeetSDK.xcframework', 'Frameworks/WebRTC.xcframework'
 end

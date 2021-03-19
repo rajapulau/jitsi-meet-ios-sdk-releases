@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'QiscusMeetFramework'
-  s.version          = '2.11.0'
+  s.version          = '3.2.0'
   s.summary          = 'Qiscus Meet iOS SDK'
   s.description      = 'Qiscus Meet is a WebRTC compatible, free and Open Source video conferencing system that provides browsers and mobile applications with Real Time Communications capabilities.'
   s.homepage         = 'https://github.com/rajapulau/qiscus-meet-ios-sdk-releases'
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.vendored_frameworks = 'Frameworks/JitsiMeet.framework', 'Frameworks/WebRTC.framework'
+  s.vendored_frameworks = 'Frameworks/JitsiMeetSDK.xcframework', 'Frameworks/WebRTC.xcframework'
 end
